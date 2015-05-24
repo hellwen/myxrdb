@@ -1,0 +1,24 @@
+/*** Defines our theme ***/
+
+#define FONT                      -*-terminus-medium-*-*-*-10-*-*-*-*-*-*-*
+#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-10-*-*-*-*-*-*-*
+#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=10
+! good for c code.
+!#define FONT                      -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT                      -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+! Good  for c++ code - bold punctuation.
+!#define FONT                      -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT                      -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
+!
+
+#include "look-zenburn.xrdb"
+
+/*** Settings for various applications ***/
+XLock.mode:                     blank
+
+#include "xterm.xrdb"
+#include "urxvt.xrdb"

@@ -1,0 +1,14 @@
+URxvt*font: FONT
+URxvt*boldFont: FONT_BOLD
+URxvt*italicFont: FONT_ITALIC
+
+!Rxvt*foreground: white
+!Rxvt*background: black
+
+URxvt.perl-ext-common:  default,url-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      chromium
+URxvt.underlineURLs:    true
+URxvt.matcher.button:   1
+URxvt.scrollstyle: plain
+URxvt.urgentOnBell: true
