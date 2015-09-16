@@ -1,8 +1,8 @@
 /*** Defines our theme ***/
 
-#define FONT                      -*-terminus-medium-*-*-*-10-*-*-*-*-*-*-*
-#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-10-*-*-*-*-*-*-*
-#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=10
+#define FONT                      -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-12-*-*-*-*-*-*-*
+#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=12
 ! good for c code.
 !#define FONT                      -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
 !#define FONT_BOLD                 -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
