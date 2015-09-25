@@ -1,8 +1,8 @@
 /*** Defines our theme ***/
 
-#define FONT                      -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
-#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-14-*-*-*-*-*-*-*
-#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=14
+!#define FONT                      -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-14-*-*-*-*-*-*-*
+!#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=14
 ! good for c code.
 !#define FONT                      -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
 !#define FONT_BOLD                 -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
@@ -13,7 +13,10 @@
 !#define FONT_BOLD                 -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
 !#define FONT                      -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
 !#define FONT_BOLD                 -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
-!
+
+
+#define FONT                      -misc-fixed-medium-r-normal-*-18-120-100-100-c-90-iso10646-1
+#define wideFont                  -misc-fixed-medium-r-normal-*-18-120-100-100-c-180-iso10646-1
 
 #include "look-zenburn.xrdb"
 
@@ -22,3 +25,4 @@ XLock.mode:                     blank
 
 #include "xterm.xrdb"
 #include "urxvt.xrdb"
+
