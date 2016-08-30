@@ -39,4 +39,7 @@ export XMODIFIERS="@im=fcitx"
 
 fcitx &
 
+# set backgroup image
+sh ~/.fehbg &
+
 exec i3
