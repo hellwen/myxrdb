@@ -2,13 +2,22 @@ URxvt*font: FONT
 URxvt*boldFont: FONT_BOLD
 URxvt*italicFont: FONT_ITALIC
 
-Rxvt*foreground: white
-Rxvt*background: black
+!!Color
+URxvt.cursorColor:2
+URxvt.cursorBlink:true
 
-URxvt.perl-ext-common:  default,url-select
-URxvt.keysym.M-u:       perl:url-select:select_next
-URxvt.urlLauncher:      chromium
+!!
+!URxvt.perl-ext-common:  default,url-select
+!URxvt.keysym.M-u:       perl:url-select:select_next
+
+URxvt.urlLauncher:      google-chrome-stable
 URxvt.underlineURLs:    true
 URxvt.matcher.button:   1
+URxvt.scrollBar:false
 URxvt.scrollstyle: plain
 URxvt.urgentOnBell: true
+URxvt.saveLines:65535
+
+
+
+! urxvt -fg lightgray -bg black -tr -tint lightgray -sh 30

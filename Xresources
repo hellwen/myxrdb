@@ -14,13 +14,14 @@
 !#define FONT                      -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
 !#define FONT_BOLD                 -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
 
+!! about: https://en.wikipedia.org/wiki/Fixed_(typeface)
 #define FONT                      -misc-fixed-medium-r-normal-*-18-120-100-100-c-90-iso10646-1
 #define wideFont                  -misc-fixed-medium-r-normal-*-18-120-100-100-c-180-iso10646-1
 
-#include ".xrdb/look-zenburn.xrdb"
+!#include ".xrdb/look-zenburn.xrdb"
 
 /*** Settings for various applications ***/
-XLock.mode:                     blank
+!XLock.mode:                     blank
 
-#include ".xrdb/xterm.xrdb"
+!#include ".xrdb/xterm.xrdb"
 #include ".xrdb/urxvt.xrdb"
