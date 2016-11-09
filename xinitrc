@@ -47,4 +47,8 @@ ibus-daemon &
 # set backgroup image
 sh ~/.fehbg &
 
-exec i3
+#autocutsel -fork &
+#autocutsel -selection PRIMARY -fork &
+
+#exec i3
+exec qtile
