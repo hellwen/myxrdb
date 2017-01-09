@@ -21,4 +21,6 @@
 /*** Settings for various applications ***/
 !XLock.mode:                     blank
 
+#include "/home/arch/.xrdb/look-zenburn.xrdb"
+
 #include "/home/arch/.xrdb/xterm.xrdb"
