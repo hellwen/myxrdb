@@ -18,10 +18,7 @@
 #define FONT                       -misc-fixed-medium-r-normal-*-18-120-100-100-c-90-iso10646-1
 #define FONT_BOLD                  -misc-fixed-bold-r-normal-*-18-120-100-100-c-90-iso10646-1
 
-#include ".xrdb/look-zenburn.xrdb"
-
 /*** Settings for various applications ***/
 !XLock.mode:                     blank
 
-#include ".xrdb/xterm.xrdb"
-#include ".xrdb/urxvt.xrdb"
+#include "/home/arch/.xrdb/xterm.xrdb"
