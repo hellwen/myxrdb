@@ -74,12 +74,13 @@
 
 /* Suggested Settings */
 
-XTerm*saveLines:               4096
+XTerm*saveLines:               40960
 /* XTerm*cursorBlink:             true */
 /* XTerm*scrollBar:               false */
 XTerm*visualBell:              true
 
-XTerm*scrollTtyOutput:        false
+XTerm*scrollTtyOutput:         false
+XTerm*scrollKey:               true
 
 /* Normally, you should not have to edit anything below.  */
 
