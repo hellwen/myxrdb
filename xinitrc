@@ -41,7 +41,6 @@ export QT_IM_MODULE=ibus
 ibus-daemon -x -r -d
 
 # set backgroup image
-sh ~/.fehbg &
+#sh ~/.fehbg &
 
-#exec i3
 exec qtile
