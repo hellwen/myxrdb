@@ -41,6 +41,7 @@ export QT_IM_MODULE=ibus
 ibus-daemon -x -r -d
 
 # set backgroup image
-#sh ~/.fehbg &
+# 执行后配置：feh --bg-scale /home/arch/.xrdb/backgroup.png
+sh ~/.fehbg &
 
 exec qtile
